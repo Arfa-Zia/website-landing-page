@@ -14,6 +14,8 @@ module.exports = {
         },
         neutral: {
           silver: '#F5F7FA',
+          black: "#263238",
+          white: "#FFFFFF10"
         }
       },
       fontFamily: {
