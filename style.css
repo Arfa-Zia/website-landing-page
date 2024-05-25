@@ -1100,10 +1100,6 @@ video {
   transition-duration: 150ms;
 }
 
-html{
-  color:aliceblue
-}
-
 .placeholder\:text-xs::-moz-placeholder {
   font-size: 0.75rem;
   line-height: 1rem;
@@ -1444,3 +1440,4 @@ html{
     line-height: 1.75rem;
   }
 }
+
