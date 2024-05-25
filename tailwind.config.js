@@ -21,7 +21,36 @@ module.exports = {
       fontFamily: {
         inter: ['Inter',...defaultTheme.fontFamily.sans],
 
+      },
+      keyframes:{
+        'slide':{
+          '0%':{
+            transform: 'translateX(0)'
+          },
+          '25%':{
+            transform: 'translateX(0)'
+          },
+          '30%':{
+            transform: 'translateX(-100%)'
+          },
+          '50%':{
+            transform: 'translateX(-100%)'
+          },
+          '55%':{
+            transform: 'translateX(-200%)'
+          },
+          '75%':{
+            transform: 'translateX(-200%)'
+          },
+          '100%':{
+            transform: 'translateX(-300%)'
+          }
+        }
+      },
+      animation:{
+        'slide': 'slide  16s  infinite'
       }
+
     },
   },
   plugins: [],
