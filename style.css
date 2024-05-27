@@ -1174,9 +1174,6 @@ a:hover {
   transition-duration: 150ms;
 }
 
-div {
-}
-
 .placeholder\:text-xs::-moz-placeholder {
   font-size: 0.75rem;
   line-height: 1rem;
