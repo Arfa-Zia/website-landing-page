@@ -2,3 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components{
+    button:hover{
+        @apply scale-105 ease-in-out;
+    }
+    a:hover{
+        @apply underline;
+    }
+    .fa:hover{
+        @apply scale-125 ease-in-out;
+    }
+}

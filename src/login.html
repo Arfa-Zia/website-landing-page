@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+    <link href="../style.css" rel="stylesheet">
+    <title>Login</title>
+</head>
+<body>
+    <main class="w-screen h-screen  flex font-inter justify-center bg-color-shade-6">
+        <div class="hidden md:flex md:w-1/2   justify-center items-center" >
+            <img class="  p-10 size-[45vw]" src="../imgs/Illustration.png" alt="">
+        </div>
+        <div class="w-full md:w-1/2  flex p-10 justify-center items-center ">
+            <form class="flex flex-col gap-4 bg-neutral-silver p-[7vw] md:p-10 rounded-lg shadow-lg  ">
+                <h3 class="text-2xl md:text-xl lg:text-3xl font-semibold ">Nice to see you again</h3>
+                <div class="space-y-[2vw] md:space-y-2">
+                    <label class="text-xs pl-5" for="email">Email</label>
+                    <input class="p-4 h-12 w-full rounded-lg border-none focus:outline-none " type="email" name="emai" id="email" placeholder="Enter you email address" required>
+                </div>
+                <div class="space-y-3">
+                    <label class="text-xs pl-5" for="password">Password</label>
+                    <input class="p-4 h-12 w-full rounded-lg border-none focus:outline-none " type="password" name="password" id="password" placeholder="Enter password" required>
+                </div>
+                <a class="self-end text-sm text-blue-600 hover:text-blue-800">Forget Password?</a>
+                <button type="submit" class="bg-blue-600 hover:bg-blue-800 w-full p-2 rounded-lg  text-white ">Log In</button>
+                <hr>
+                <button class="w-full p-2 rounded-lg text-sm text-white bg-neutral-700 hover:bg-neutral-900"><img class="size-8 inline" src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png" alt=""> Or log in with Google</button>
+                <p class="text-sm text-center text-nowrap">Don't have an account? <span class="text-blue-600 hover:text-blue-800 ml-2"><a href="signup.html">Sign up now</a></span></p>
+            </form> 
+        </div>                
+    </main>
+</body>
+</html>

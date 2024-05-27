@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 const defaultTheme = require('tailwindcss/defaultTheme');
 module.exports = {
-  content: ['./*.html'],
+  content: ['./*.html' , './src/**/*.html'],
   theme: {
     extend: {
       colors: {
@@ -11,6 +11,7 @@ module.exports = {
           3: '#237d31' ,
           4: '#1b5e1f' ,
           5: '#103e13' ,
+          6: '#43A0463d' , 
         },
         neutral: {
           silver: '#F5F7FA',
