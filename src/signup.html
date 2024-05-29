@@ -14,20 +14,23 @@
        
         <div class="w-full md:w-1/2  flex p-10 justify-center items-center ">
             <form class="flex flex-col gap-4 bg-neutral-silver p-[7vw] md:p-10 rounded-lg shadow-lg  ">
-                <h3 class="text-2xl md:text-xl lg:text-3xl font-semibold ">Welcome!</h3>
+                <h3 class="text-2xl md:text-xl lg:text-3xl font-semibold text-color-shade-3">Register your account</h3>
+                <div class="space-y-3 mt-3">
+                    <input class="p-4 h-12 w-full rounded-lg border-none focus:outline-none " type="text" name="name" id="name" placeholder="Full name" required>
+                </div>
                 <div class="space-y-[2vw] md:space-y-2">
-                    <label class="text-xs pl-5" for="email">Email</label>
-                    <input class="p-4 h-12 w-full rounded-lg border-none focus:outline-none " type="email" name="emai" id="email" placeholder="Enter you email address" required>
+                    <input class="p-4 h-12 w-full rounded-lg border-none focus:outline-none " type="email" name="emai" id="email" placeholder="Email address" required>
+                </div>
+                <div class="space-y-3 ">
+                    <input class="p-4 h-12 w-full rounded-lg border-none focus:outline-none " type="password" name="password" id="password" placeholder="Password" required>
                 </div>
                 <div class="space-y-3 mb-5">
-                    <label class="text-xs pl-5" for="password">Password</label>
-                    <input class="p-4 h-12 w-full rounded-lg border-none focus:outline-none " type="password" name="password" id="password" placeholder="Enter password" required>
+                    <input class="p-4 h-12 w-full rounded-lg border-none focus:outline-none " type="password" name="password" id="repeat-password" placeholder="Repeat password" required>
                 </div>
-
                 
-                <button type="submit" class="bg-blue-600 hover:bg-blue-800 w-full p-2 rounded-lg  text-white ">Sign Up</button>
+                <button type="submit" class="bg-color-shade-2 hover:bg-color-shade-4 w-full p-2 rounded-lg  text-white ">Sign Up</button>
                 <hr>
-                <button class="w-full p-2 rounded-lg text-sm text-white bg-neutral-700 hover:bg-neutral-900"><img class="size-8 inline" src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png" alt=""> Or sign up with Google</button>
+                <button class="w-full p-2 rounded-lg text-sm text-white bg-neutral-black hover:bg-gray-800"><img class="size-8 inline" src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png" alt=""> Or sign up with Google</button>
                 <p class="text-sm text-center text-nowrap">Already have an account? <span class="text-blue-600 hover:text-blue-800 ml-2"><a href="login.html">Log In now</a></span></p>
             </form> 
         </div>      
